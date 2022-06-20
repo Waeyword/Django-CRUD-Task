@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 import environ
 
+#Initialise environment variables
 env = environ.env()
 environ.Env.read_env()
 
